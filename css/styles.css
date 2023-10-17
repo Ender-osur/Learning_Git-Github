@@ -1,6 +1,37 @@
+:root{
+    --primary-text-color: black;
+    --primary-background-color: rgb(40, 90, 78);
+}
+
 body {
+    margin: 0;
+    padding: 0;
     color: chocolate;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aqua;
+    background-color: var(--primary-background-color);
 }
+
+header {
+    margin: 0 5%;
+}
+
+#header--h1 {
+    color: var(--primary-text-color);
+    font-family: monospace;
+    font-size: 3rem;
+}
+
+header > h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.principal-container {
+    margin: 5%;
+    padding: 1%;
+    border-inline: 0.1rem solid;
+    writing-mode: horizontal-tb;
+    direction:ltr;
+    border-color: chocolate;
+}
+
