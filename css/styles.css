@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    color: chocolate;
+    color: var(--primary-text-color);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--primary-background-color);
@@ -20,6 +20,19 @@ header {
     color: var(--primary-text-color);
     font-family: monospace;
     font-size: 3rem;
+}
+
+#header--span {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-text-color);
+}
+.header--contact-link {
+    all: initial;
+}
+.header--contact-link:hover {
+    color: white;
+    background-color: black;
 }
 
 header > h2 {
